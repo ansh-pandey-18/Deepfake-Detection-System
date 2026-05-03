@@ -1,0 +1,7 @@
+numpy>=1.26.0,<2.1.0
+streamlit==1.40.0
+tensorflow==2.18.0
+opencv-python-headless>=4.8.0
+Pillow>=10.0.0
+plotly>=5.18.0
+fpdf2>=2.7.0

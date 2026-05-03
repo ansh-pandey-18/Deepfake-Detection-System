@@ -1,0 +1,55 @@
+# -----------------------------------------------------------------------------
+# Deepfake Detection System - Git Ignore Configuration
+# -----------------------------------------------------------------------------
+
+# Virtual Environment
+venv/
+.env/
+env/
+*.venv
+
+# Python Cache and Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Development / Leftover Directories (Not required for web app)
+Models/
+.ipynb_checkpoints/
+*.ipynb
+
+# Generated Reports & Output Files
+*.pdf
+deepfake_report_*.pdf
+scratch/
+temp/
+
+# OS Specific Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE & Editor Directories
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -----------------------------------------------------------------------------
+# Large Model Weights (Optional: Remove if using Git LFS)
+# -----------------------------------------------------------------------------
+# Note: GitHub has a strict 100MB file size limit. 
+# Your .h5 models (e.g., model_weights.weights.h5 which is ~354MB) 
+# will cause a Git Push failure unless you configure Git Large File Storage (LFS).
+# If you are not using Git LFS, keep these lines uncommented to prevent push errors:
+*.h5
+CNN_model_weight/
+EfficientNet_Models/
