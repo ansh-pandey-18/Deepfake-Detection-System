@@ -50,6 +50,3 @@ Thumbs.db
 # Your .h5 models (e.g., model_weights.weights.h5 which is ~354MB) 
 # will cause a Git Push failure unless you configure Git Large File Storage (LFS).
 # If you are not using Git LFS, keep these lines uncommented to prevent push errors:
-*.h5
-CNN_model_weight/
-EfficientNet_Models/
