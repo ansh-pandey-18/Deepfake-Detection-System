@@ -196,7 +196,8 @@ if st.session_state.theme == "light":
     .stSelectbox div[data-baseweb="select"] > div { background-color: #ffffff !important; border-color: rgba(60,70,100,0.2) !important; }
     .stSelectbox label { color: #22273a !important; }
     .stSelectbox > div div { color: #22273a !important; }
-    [data-baseweb="popover"], [data-baseweb="menu"] { background-color: #ffffff !important; }
+    [data-baseweb="popover"], [data-baseweb="popover"] > div, [data-baseweb="menu"], ul[role="listbox"], li[role="option"] { background-color: #ffffff !important; }
+    li[role="option"]:hover, [data-baseweb="menu"] > ul > li:hover { background-color: #f4f6fa !important; }
     [data-baseweb="popover"] *, [data-baseweb="menu"] * { color: #22273a !important; }
     .stButton > button { background-color: #ffffff !important; color: #22273a !important; border-color: rgba(60,70,100,0.2) !important; }
     .stDownloadButton > button { background-color: #ffffff !important; color: #22273a !important; border-color: rgba(60,70,100,0.2) !important; }
